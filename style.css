@@ -1,0 +1,58 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, pink,lightblue);
+}
+
+.container{
+    border: 2px solid rgb(192, 49, 192);
+    padding: 15px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0px 5px 15px rgb(247, 140, 247 , 0.5);
+}
+
+.input-data{
+    width: 240px;
+    height: 100px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 5px 15px rgb(247, 140, 247 , 0.1);
+    text-align: right;
+    cursor: pointer;
+    color: #000;
+    font-size: 20px;
+}
+
+
+button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.equalbutton{
+    background-color: aqua;
+}
+
+.operators{
+    color: red;
+}
+
+
