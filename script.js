@@ -1,5 +1,5 @@
 //for input value
-let =document.getElementById('input-data');
+let input=document.getElementById('input-data');
 //for buttons selected
 let buttons=document.querySelectorAll('button') ;
 //an empty string is taken
